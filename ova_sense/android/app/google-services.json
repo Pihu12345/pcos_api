@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351495096605",
+    "project_id": "ova-sense-y6ma8s",
+    "storage_bucket": "ova-sense-y6ma8s.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351495096605:android:6afd1dc10c4b1035feb9f4",
+        "android_client_info": {
+          "package_name": "com.mycompany.ovasense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoETrYPtZHg_swy9EP9U9LWVQsxyM1Q9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
