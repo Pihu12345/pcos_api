@@ -116,7 +116,7 @@ def predict_from_hormones(patient_data_dict,
 
 if __name__ == '__main__':
     # Path to your infertility data
-    infertility_path = '/Users/diptisingh/Downloads/HCAI/archive/PCOS_infertility.csv'
+    infertility_path = 'PCOS_infertility.csv'
 
     # Load data
     X, y, hormonal_features = load_and_prepare_infertility_data(infertility_path)
