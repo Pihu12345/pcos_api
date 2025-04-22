@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import os
 from Ovasense import predict_from_hormones  # Your ML function
 
 import os  # Needed to get PORT from environment
@@ -23,5 +24,5 @@ def predict():
 
 # THIS is the key bit for Render:
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5001))  # Render provides PORT
+    port = int(os.environ.get("PORT", 10000))  # Render provides PORT
     app.run(host='0.0.0.0', port=port, debug=True)
